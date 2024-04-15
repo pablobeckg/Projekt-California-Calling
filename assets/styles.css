@@ -13,10 +13,6 @@ html {
     width: 100vw;
 }
 
-body {
-    width: 100vw;
-}
-
 @font-face {
     font-family: "inter";
     src: url(./fonts/Inter-VariableFont_slnt\,wght.ttf);
@@ -58,7 +54,6 @@ font-family: "inter";
 .border {
     color: black;
     -webkit-text-stroke: 1px white;
-
 }
 
 .bar {
@@ -129,7 +124,7 @@ font-family: "inter";
 }
 .parent {
     display: grid;
-    grid-template-columns:repeat(4, 1fr);
+    grid-template-columns:repeat(4, 25vw);
     grid-template-rows:repeat(7, 1fr);
     position: relative;
     width: 100vw;
